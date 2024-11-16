@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+          <nav id="header">
+             <!-- Dark Mode Button -->
+            <div class="dark-mode-btn">
+                <button id="darkModeToggle" class="btn">
+                    <i class="uil uil-moon"></i> <!-- Moon icon for dark mode -->
+                </button>
+            </div>
+            <div class="nav-logo">
+                <p class="nav-name">@Why<span>Vincent</span></p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="" download>
+                    <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                </a>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+    
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+           <!-- -------------- FEATURED BOX ---------------- -->
+           <section class="featured-box" id="home">
+              <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Antepim Awuah Vincent</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm A <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>
+                        Junior frontend developer with a strong foundation in web development and
+                        a passion for building interactive and user-friendly websites
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <button class="btn blue-btn">Hire Me</button>
+                    <a href="" download>
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    </a>
+                </div>
+                <div class="social_icons">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/antepimawuah?utm_source=qr" class="icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-instagram"></i>
+                    </a>                                       
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/vincent-awuah-antepim-a684ba333" class="icon" target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+    
+                <!-- X (formerly Twitter) -->
+                <a href="https://x.com/Antepim Awuah Vincent" class="icon" target="_blank">
+                    <i class="uil uil-twitter"></i> <!-- This is the Unicons Twitter (X) icon -->
+                </a>
+            
+                <!-- GitHub -->
+                <a href="https://github.com/Vincent0523?tab=repositories" class="icon" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <!--Facebook-->
+                <a href="https://www.facebook.com/profile.php?id=100091495945269&mibextid=LQQJ4d" class="icon" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-facebook-f"></i>
+                </a>                               
+                </div>
+              </div>
+              <div class="featured-image">
+                <div class="image">
+                    <img src="pic.png" alt="Profile Image">
+                </div>
+              </div>
+           </section>
+           
+            
+    
+           <!-- -------------- ABOUT BOX ---------------- -->
+           <section class="section" id="about">
+              <div class="top-header">
+                <h1>About Me</h1>
+              </div>
+              <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>
+                            I am well-versed in HTML, CSS and JavaScript , and other cutting edge
+                           frameworks and libraries,which allows me to implement interactive features.
+                           Additionally, I have experirence working with content management systems (CMS) like
+                           WordPress.
+                        </p>
+                        <div class="about-btn">
+                            <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           </section>
+    
+           <!-- -------------- PROJECT BOX ---------------- -->
+           <section class="section" id="projects">
+              <div class="top-header">
+                  <h1>Projects</h1>
+              </div>
+              <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Completed</h3>
+                    <label>5 Finished Projects</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>Clients</h3>
+                    <label>7 Happy Clients</label>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experience</h3>
+                    <label>2nd Year Computer Science and Engineering Student</label>
+                </div>
+              </div>
+           </section>
+    
+           <!-- -------------- CONTACT BOX ---------------- -->
+    <section class="section" id="contact">
+        <div class="top-header">
+            <h1>Contact...</h1>
+            <span>Feel free to contact me by sending a direct message</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Credentials <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: vincentawuah2005@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +233 531 222 845</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" id="contact-name" placeholder="Name">
+                        <input type="email" class="input-field" id="contact-email" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea id="contact-message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn" id="contact-submit-btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        </main>
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Antepim Awuah Vincent</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/antepimawuah?utm_source=qr" class="icon" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/vincent-awuah-antepim-a684ba333" class="icon" target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+    
+                <!-- X (formerly Twitter) -->
+                <a href="https://x.com/Antepim Awuah Vincent" class="icon" target="_blank">
+                    <i class="uil uil-twitter"></i> <!-- This is the Unicons Twitter (X) icon -->
+                </a>
+            
+                <!-- GitHub -->
+                <a href="https://github.com/Vincent0523?tab=repositories" class="icon" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <!--Facebook-->
+                <a href="https://www.facebook.com/profile.php?id=100091495945269&mibextid=LQQJ4d" class="icon" target="_blank" rel="noopener noreferrer">
+                    <i class="uil uil-facebook-f"></i>
+                </a>                
+                
+            </div>
+            
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Antepim Awuah Vincent</a> - All rights reserved</p>
+            </div>
+        </footer>
+    
+        
+    
+        <!-- ----- TYPING JS Link ----- -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+        <!-- ----- SCROLL REVEAL JS Link----- -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    
+        <!-- ----- MAIN JS ----- -->
+        <script src="script.js"></script>
+            
+</body>
+</html>
